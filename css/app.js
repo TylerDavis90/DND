@@ -1,4 +1,4 @@
-let menuTog = document.querySelector('.menu-toggle');
+let menuTog = document.querySelector('.toggle.menu');
 let nav = document.querySelector('.nav');
 let navLeft = document.querySelector('.nav-left');
 let navRight = document.querySelector('.nav-right');

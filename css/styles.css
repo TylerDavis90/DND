@@ -13,20 +13,54 @@ body {
     
 }
 
-.box-2{
-  display: flex;
-  flex-direction: column;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #5b6dcd 10 px;
+  
 }
 
+[class^="box"] {
+  padding: 10px;
+}
+ .parentFlex{
+   display:flex;
+   contain: 600px;
+  align-items: center;
+  justify-content: center;
+ }
+
+.box-1{
+  margin: auto;
+  
+}
+
+
+.box-2{
+  margin: auto;
+  
+}
+
+.box-3{
+  margin: auto;
+  
+}
 
 .box-4{
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+
 }
 
+.box-5{
+  margin: auto;
+
+}
 
 ul {
-  display: flex;
+  
   flex-wrap: wrap;
   flex-direction: column;
 }
