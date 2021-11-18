@@ -8,12 +8,12 @@
         <meta name= "author" content ="Welcome to The Dragons Rising Campgian">
         <meta name= "description" content="Offical Campaign for Dragons Rising Campaign">
         <meta name= "viewport" content="width=device-width,intial-scale=1.0">
-        <link rel="stylesheet" type="text/html" 
+        <link rel="stylesheet" type="text/css" 
         href="css/styles.css">
     
     </head>
     <body>
-        <div class="toggle menu">
+        <div class="menu-toggle">
             <span></span>
             <span></span>
             <span></span>
@@ -38,10 +38,10 @@
             <div class="nav-right"></div>
         </nav>
 
-        <div class="logo"> group logo</div>
+        <div class="logo"></div>
 
         <div class="welcome">
-            <h1 class="message">This is The Dragons Rising Campiagn</h1>
+            <h1 class="message"></h1>
             
         </div>
        
@@ -52,7 +52,7 @@
             <div class="box-1">
             <ul>
                 <li>
-                    <img src="img/dragons.png" alt="" width="1440" height="400">
+                    <img src="img/dragons.png" alt="" width="2500" height="400">
                 </li> 
             </ul>
             </div>     
@@ -87,19 +87,23 @@
             <div class="box-5">
             <ul>
                 <li>
-                    <img src="img/wyatt2.png" alt="" width="600" height="500">
+                    <img src="img/wyatt2.png" alt="" width="500" height="500">
                 </li> 
             </ul>
-            </div>   
+               
         </div>
 
 
 
 
-        <label for="email">Enter your email and get notified for when we go live:</label>
-
-        <input type="email" id="email"
-        pattern=".+@yahoo\.com" size="30" required>
-    </div>
+        <form action="https://formsubmit.co/tdavis431@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Thank you, hope to see you on twitch!">
+            <button type="submit">Send</button>
+       </form>
+    
     </body>
 </html>

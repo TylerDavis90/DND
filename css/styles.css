@@ -4,33 +4,43 @@ body {
     margin-top: 0px;
     font-family: fanstay;
     color: white;
-    background-color: black;
+    background-color: ghostwhite;
     margin-left: auto;
     margin-right: 1000px;
-    text-align: right;
-    width: 500px;
+    text-align: left;
+    
 
     
 }
 
+@media (max-width: 320px) {
+  float: center;
+  width: 60%;
+  
+}
+
+
+@media (max-width: 1000px) {
+  float right
+  width 60%
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  border: solid #5b6dcd 10 px;
+  
   
 }
 
 [class^="box"] {
-  padding: 10px;
+  padding: 20px;
 }
  .parentFlex{
    display:flex;
    contain: 600px;
-  align-items: center;
-  justify-content: center;
+   flex-direction: column;
+  
  }
 
 .box-1{
@@ -59,9 +69,10 @@ body {
 
 }
 
+
 ul {
   
-  flex-wrap: wrap;
+  display: flex;
   flex-direction: column;
 }
 
@@ -77,9 +88,12 @@ li:last-child {
 img {
   max-height: 100%;
   min-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   vertical-align: bottom;
 }
+
+
+
 
 .menu-toggle{
   position: fixed;
@@ -88,6 +102,7 @@ img {
   top: 4rem;
   width: 3rem;
   height: 3rem;
+  ;
   
   cursor: pointer;
   display: flex;
