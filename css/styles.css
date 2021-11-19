@@ -13,7 +13,7 @@ body {
     
 }
 
-@media all and (min-width: 200px) {
+@media only screen and (min-width: 200px) {
   .body{
     display: block;
     grid-template-columns: 3fr 1fr;
@@ -56,6 +56,7 @@ body {
 
 .box{
   margin: auto;
+}
 
   
   ul{
