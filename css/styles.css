@@ -14,10 +14,12 @@ body {
 }
 
 @media only screen and (min-width: 200px) {
-  .body{
-    display: block;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 20px;
+  
+  .parentFlex {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
   }
     
   
@@ -25,14 +27,17 @@ body {
 
 @media only screen and (min-width: 768px) {
     .parentFlex {
-         flex-direction: row;
+         flex-direction: column;
     }
     .box {
        width: 45%;
     }
 }
 @media only screen and (min-width: 1240px) {
-   .box {
+   .parentFlex{
+     flex-direction: row;
+   }
+  .box {
         width: 30%;
     }
 } 
@@ -50,7 +55,7 @@ body {
  .parentFlex{
    display:flex;
    contain: 600px;
-   flex-direction: column;
+   
   
  }
 
@@ -60,9 +65,8 @@ body {
 
   
   ul{
-  
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   }
   
 
@@ -73,7 +77,7 @@ li {
 }
 li:last-child {
   
-  flex-grow: 10;
+  flex-grow: 100%;
 }
 
 img {
