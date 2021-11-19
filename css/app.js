@@ -1,4 +1,4 @@
-let menuTog = document.querySelector('.toggle.menu');
+let menuTog = document.querySelector('.menu-toggle');
 let nav = document.querySelector('.nav');
 let navLeft = document.querySelector('.nav-left');
 let navRight = document.querySelector('.nav-right');
@@ -20,10 +20,10 @@ menuTog.addEventListener('click' , ()=>{
 
         if(menuTog.classList.contains('active')){
             setTimeout(()=>{
-                navRight.Right.classList.add('active');
+                navRight.classList.add('active');
             },100)
 
-            for(let i = 0; i, navLinks.length; i++){
+            for(let i = 0; i< navLinks.length; i++){
                 navLinks[i].classList.remove('active');
                 setTimeout(()=>{
                     navLinks[i].classList.add('avtice')
